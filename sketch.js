@@ -124,7 +124,7 @@ function showCannonBalls(ball, index) {
   }
 
 }
-var GameisOver = False
+var GameisOver = false
 function showboats() {
   if (boats.length > 0) {
 
