@@ -7,7 +7,7 @@ class Boat {
         this.animation = boat_animation
         this.speed= 0.05
         //this.image=loadAnimation("assets/Boat_Animation/sprite_0.png", "assets/Boat_Animation/sprite_1.png", "assets/Boat_Animation/sprite_2.png", "assets/Boat_Animation/sprite_3.png", )
-        this.image = loadImage("assets/Boat_Animation/sprite_2.png")
+        this.image = loadImage("./assets/Boat_Animation/sprite_2.png")
         this.boat_pos = boat_position
         World.add(world, this.body)
     }

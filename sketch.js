@@ -15,14 +15,14 @@ var boatSpriteData, boatSpriteSheet
 var brokenboatSpriteData, brokenboatSpriteSheet
 var watersplashSpriteData, watersplashSpriteSheet
 function preload() {
-  backgroundImg = loadImage("/assets/background.gif");
-  towerImage = loadImage("/assets/tower.png");
-  boatSpriteData = loadJSON("/assets/Boat_Animation/Boat.json")
-  boatSpriteSheet = loadImage("/assets/Boat_Animation/Boat.png")
-  brokenboatSpriteData = loadJSON("/assets/Boat_Animation/Broken_boat.json")
-  brokenboatSpriteSheet = loadImage("/assets/Boat_Animation/Broken_boat.png")
-  watersplashSpriteData = loadJSON("/assets/Boat_Animation/watersplash.json")
-  watersplashSpriteSheet = loadImage("/assets/Boat_Animation/watersplash.png")
+  backgroundImg = loadImage("./assets/background.gif");
+  towerImage = loadImage("./assets/tower.png");
+  boatSpriteData = loadJSON("./assets/Boat_Animation/Boat.json")
+  boatSpriteSheet = loadImage("./assets/Boat_Animation/Boat.png")
+  brokenboatSpriteData = loadJSON("./assets/Boat_Animation/Broken_boat.json")
+  brokenboatSpriteSheet = loadImage("./assets/Boat_Animation/Broken_boat.png")
+  watersplashSpriteData = loadJSON("./assets/Boat_Animation/watersplash.json")
+  watersplashSpriteSheet = loadImage("./assets/Boat_Animation/watersplash.png")
 
 }
 

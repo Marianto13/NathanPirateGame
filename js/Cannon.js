@@ -5,8 +5,8 @@ class Cannon {
     this.width = width;
     this.height = height;
     this.angle = angle;
-    this.cannon_image = loadImage("assets/canon.png");
-    this.cannon_base = loadImage("assets/cannonBase.png");
+    this.cannon_image = loadImage("./assets/canon.png");
+    this.cannon_base = loadImage("./assets/cannonBase.png");
   }
   
   display() {
